@@ -19,7 +19,7 @@ class Application
 
     if req.path.match(/cart/)
       @@cart.each do |c|
-        resp.write "#{c}"\n
+        resp.write "#{c}\n"
       end
     resp.finish
   end

@@ -28,6 +28,8 @@ class Application
         if @@items.include? search_term
           @@cart << search_term
           resp.write "Added #{search_term}"
+        else
+          resp.write "We don't have that item"
 
 
     else

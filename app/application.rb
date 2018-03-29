@@ -24,7 +24,7 @@ class Application
       end
 
     elsif req.path.match(/add/)
-      search_term = req.params("items")
+      search_term = req.params["item"]
 
 
     else

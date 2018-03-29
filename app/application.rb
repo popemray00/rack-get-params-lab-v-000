@@ -22,7 +22,7 @@ class Application
         resp.write "#{c}\n"
       end
 
-    else 
+    else
       resp.write "Your cart is empty"
     end
     resp.finish
